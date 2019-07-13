@@ -262,12 +262,12 @@ span {
 
 			.latest li {
 			display: inline-block;
-			height: 15px;
-			width: 15px;
+			height: 23px;
+			width: 23px;
 			background-color: #2aacc8;
 			border-radius: 50%;
 			font-weight: 700;
-			margin: 5px; 
+			margin: 3px; 
 			text-align: center;
 			}
 			.latest h6:before {
@@ -287,6 +287,15 @@ span {
 
 		.pic {
 			text-align: center;
+		}
+		
+		.wborder {
+			border-bottom: 1px solid lightgray;
+			display: flex;
+			justify-content: space-between;
+		}
+		.normallize {
+			margin: 0;
 		}
 
 		.gallery {
@@ -411,7 +420,6 @@ hr {
 		}
 
 		.download b {
-			display: inline-block;
 			color: #0d0707;
 			font-weight: 700;
 			line-height: 60px;
@@ -420,7 +428,7 @@ hr {
 			padding: 0px;
 			width: 240px;
 			height: 60px;
-			vertical-align: middle;
+			margin-top: 42px;
 			background-color: #2aacc8;
 			background-image: linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 			border: 1px solid #2aacc8;
@@ -443,6 +451,10 @@ hr {
 			font-size: 18px;
 			font-weight: 700;
 			text-transform: uppercase;
+		}
+		.download.lates{
+			display: flex;
+			align-self: flex-start;
 		}
 
 footer {
